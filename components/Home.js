@@ -20,6 +20,6 @@ export default class Home extends Component {
           >
         </Button>
       </View>
-    );
+    )
   }
 }

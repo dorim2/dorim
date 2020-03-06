@@ -30,9 +30,14 @@ export default class Signup extends Component {
                 throw new Error('Passwords do not match')
             }
 
-            // sign up user, status will return an error or null if successful
+            // sign up user
             const status = await Fire.shared.signup(this.state.email, this.state.password)
+
+            // status returns an error message if signup failed, null otherwise
             if (status) alert(status)
+
+            // if signup successful, navigate to create profile
+            else this.props.navigation.navigate('CreateProfile')
         } catch(error) {
             alert(error)
         }

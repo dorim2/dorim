@@ -2,7 +2,7 @@ import 'react-native-gesture-handler'
 import * as React from 'react'
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
-import {Home, Signup, Login} from './components'
+import {Home, Signup, Login, CreateProfile} from './components'
 
 const Stack = createStackNavigator()
 
@@ -24,6 +24,10 @@ export default function App() {
           name='Login'
           component={Login}
           options={{title: 'Login'}}
+        />
+        <Stack.Screen
+          name='CreateProfile'
+          component={CreateProfile}
         />
       </Stack.Navigator>
     </NavigationContainer>
