@@ -8,18 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* dorim2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dorim2Tests.m */; };
-		0D85D88A004484653523EDDC /* libPods-dorim2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECD055ECFF20C13BF8C033A /* libPods-dorim2.a */; };
+		01F408A2D063E0242C7C9FFB /* libPods-dorim2-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F01C30A5D7168297786AC0A /* libPods-dorim2-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2796CC4A7F25872348977DF3 /* libPods-dorim2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBA3C17662720585A30AB83 /* libPods-dorim2Tests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* dorim2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dorim2Tests.m */; };
-		9C123C7A0F9F97CA60665F10 /* libPods-dorim2-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6F885794AE79A2932AD786 /* libPods-dorim2-tvOSTests.a */; };
-		CC897A7BFC7FC91E6CED8945 /* libPods-dorim2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A89925FD152DDAC443EAE /* libPods-dorim2-tvOS.a */; };
-		E6F491C715F72421182B53BB /* libPods-dorim2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E892F144D3D7867AFC1DEA /* libPods-dorim2Tests.a */; };
+		6947A8E9E4FC96554716BAF2 /* libPods-dorim2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E11F67F62E8E5FE7BC81FB /* libPods-dorim2-tvOS.a */; };
+		73DB335DF3A5C6B200CC501C /* libPods-dorim2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADA5AC9858F567BA19F924E /* libPods-dorim2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +49,38 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dorim2/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dorim2/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dorim2/main.m; sourceTree = "<group>"; };
-		2A4D3F9A42BD3E5A92F54FB2 /* Pods-dorim2-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOS/Pods-dorim2-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		17D34DC43B5644F3AF56784E /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2C81BD46BA4141F498C05646 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* dorim2-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dorim2-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* dorim2-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dorim2-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AA2FCBB8C226DBEBCAD7508 /* Pods-dorim2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2.debug.xcconfig"; path = "Target Support Files/Pods-dorim2/Pods-dorim2.debug.xcconfig"; sourceTree = "<group>"; };
-		3BD35585F7A0DFA8788495C6 /* Pods-dorim2-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOSTests/Pods-dorim2-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B9ECF5947134275DE780667 /* Pods-dorim2-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOS/Pods-dorim2-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4ECD055ECFF20C13BF8C033A /* libPods-dorim2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E892F144D3D7867AFC1DEA /* libPods-dorim2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64E8AB3B1DB23EFD65C427D1 /* Pods-dorim2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2Tests.debug.xcconfig"; path = "Target Support Files/Pods-dorim2Tests/Pods-dorim2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8CE76F32C687C98F8F59C076 /* Pods-dorim2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2.release.xcconfig"; path = "Target Support Files/Pods-dorim2/Pods-dorim2.release.xcconfig"; sourceTree = "<group>"; };
-		CB497087F649C9A0AAC63652 /* Pods-dorim2-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOSTests/Pods-dorim2-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		DD2E137AB7A26A0B9F207B73 /* Pods-dorim2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2Tests.release.xcconfig"; path = "Target Support Files/Pods-dorim2Tests/Pods-dorim2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3405426EEDDF4988B620D7BE /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		46FE349833AD3C848A55483A /* Pods-dorim2-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOS/Pods-dorim2-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		509667AA844B4D22AD72803B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		54399F75C9BA14E5C74A1C60 /* Pods-dorim2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2Tests.release.xcconfig"; path = "Target Support Files/Pods-dorim2Tests/Pods-dorim2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58467A6F9ABF4D9EB3BD7AB8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		67EE9E666ADB4D5B97A8F599 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		71E03130338D4DB4936C0160 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		7F01C30A5D7168297786AC0A /* libPods-dorim2-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAD9DD74632F026114A216D /* Pods-dorim2-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOSTests/Pods-dorim2-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BD60AADA89AEA37C96EDA96 /* Pods-dorim2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2Tests.debug.xcconfig"; path = "Target Support Files/Pods-dorim2Tests/Pods-dorim2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93DE711E76584A67BE9D045E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		93E11F67F62E8E5FE7BC81FB /* libPods-dorim2-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EE28FD11CD4AE58902B9B3 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		9CAB876A74C1440990A2BC5D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B8B62AA3C6FF3407CB713A34 /* Pods-dorim2-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOS/Pods-dorim2-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC887C4EE10648C38BC61231 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		BDBE61AEAAAE4BE29415A841 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		C4A3C9279CA54D79A2D8D50B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		CCBA3C17662720585A30AB83 /* libPods-dorim2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05E9261AD8D4E9BBE59E91D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		E16520DA63CFCFCDB139A591 /* Pods-dorim2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2.debug.xcconfig"; path = "Target Support Files/Pods-dorim2/Pods-dorim2.debug.xcconfig"; sourceTree = "<group>"; };
+		E17AE1DB5E0D430792B5672E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		EADA5AC9858F567BA19F924E /* libPods-dorim2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F81A89925FD152DDAC443EAE /* libPods-dorim2-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA6F885794AE79A2932AD786 /* libPods-dorim2-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dorim2-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE7B4D17A3FC780C214F817 /* Pods-dorim2-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dorim2-tvOSTests/Pods-dorim2-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F01A7D75F2484132B0D0FA9F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		F8A1FC721FEA99ADDF212140 /* Pods-dorim2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dorim2.release.xcconfig"; path = "Target Support Files/Pods-dorim2/Pods-dorim2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6F491C715F72421182B53BB /* libPods-dorim2Tests.a in Frameworks */,
+				2796CC4A7F25872348977DF3 /* libPods-dorim2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D85D88A004484653523EDDC /* libPods-dorim2.a in Frameworks */,
+				73DB335DF3A5C6B200CC501C /* libPods-dorim2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC897A7BFC7FC91E6CED8945 /* libPods-dorim2-tvOS.a in Frameworks */,
+				6947A8E9E4FC96554716BAF2 /* libPods-dorim2-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C123C7A0F9F97CA60665F10 /* libPods-dorim2-tvOSTests.a in Frameworks */,
+				01F408A2D063E0242C7C9FFB /* libPods-dorim2-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +150,15 @@
 			name = dorim2;
 			sourceTree = "<group>";
 		};
-		20E3216576C0643B88D2D6DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3AA2FCBB8C226DBEBCAD7508 /* Pods-dorim2.debug.xcconfig */,
-				8CE76F32C687C98F8F59C076 /* Pods-dorim2.release.xcconfig */,
-				4B9ECF5947134275DE780667 /* Pods-dorim2-tvOS.debug.xcconfig */,
-				2A4D3F9A42BD3E5A92F54FB2 /* Pods-dorim2-tvOS.release.xcconfig */,
-				3BD35585F7A0DFA8788495C6 /* Pods-dorim2-tvOSTests.debug.xcconfig */,
-				CB497087F649C9A0AAC63652 /* Pods-dorim2-tvOSTests.release.xcconfig */,
-				64E8AB3B1DB23EFD65C427D1 /* Pods-dorim2Tests.debug.xcconfig */,
-				DD2E137AB7A26A0B9F207B73 /* Pods-dorim2Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4ECD055ECFF20C13BF8C033A /* libPods-dorim2.a */,
-				F81A89925FD152DDAC443EAE /* libPods-dorim2-tvOS.a */,
-				FA6F885794AE79A2932AD786 /* libPods-dorim2-tvOSTests.a */,
-				63E892F144D3D7867AFC1DEA /* libPods-dorim2Tests.a */,
+				EADA5AC9858F567BA19F924E /* libPods-dorim2.a */,
+				93E11F67F62E8E5FE7BC81FB /* libPods-dorim2-tvOS.a */,
+				7F01C30A5D7168297786AC0A /* libPods-dorim2-tvOSTests.a */,
+				CCBA3C17662720585A30AB83 /* libPods-dorim2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,7 +178,8 @@
 				00E356EF1AD99517003FC87E /* dorim2Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				20E3216576C0643B88D2D6DA /* Pods */,
+				AC5DA9D07B72444F854078DF /* Resources */,
+				F1E5A04FC6E1C50CC30F261C /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +197,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AC5DA9D07B72444F854078DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93DE711E76584A67BE9D045E /* AntDesign.ttf */,
+				71E03130338D4DB4936C0160 /* Entypo.ttf */,
+				9CAB876A74C1440990A2BC5D /* EvilIcons.ttf */,
+				F01A7D75F2484132B0D0FA9F /* Feather.ttf */,
+				94EE28FD11CD4AE58902B9B3 /* FontAwesome.ttf */,
+				BC887C4EE10648C38BC61231 /* FontAwesome5_Brands.ttf */,
+				509667AA844B4D22AD72803B /* FontAwesome5_Regular.ttf */,
+				67EE9E666ADB4D5B97A8F599 /* FontAwesome5_Solid.ttf */,
+				3405426EEDDF4988B620D7BE /* Fontisto.ttf */,
+				D05E9261AD8D4E9BBE59E91D /* Foundation.ttf */,
+				BDBE61AEAAAE4BE29415A841 /* Ionicons.ttf */,
+				2C81BD46BA4141F498C05646 /* MaterialCommunityIcons.ttf */,
+				E17AE1DB5E0D430792B5672E /* MaterialIcons.ttf */,
+				17D34DC43B5644F3AF56784E /* Octicons.ttf */,
+				58467A6F9ABF4D9EB3BD7AB8 /* SimpleLineIcons.ttf */,
+				C4A3C9279CA54D79A2D8D50B /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F1E5A04FC6E1C50CC30F261C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E16520DA63CFCFCDB139A591 /* Pods-dorim2.debug.xcconfig */,
+				F8A1FC721FEA99ADDF212140 /* Pods-dorim2.release.xcconfig */,
+				B8B62AA3C6FF3407CB713A34 /* Pods-dorim2-tvOS.debug.xcconfig */,
+				46FE349833AD3C848A55483A /* Pods-dorim2-tvOS.release.xcconfig */,
+				EFE7B4D17A3FC780C214F817 /* Pods-dorim2-tvOSTests.debug.xcconfig */,
+				8AAD9DD74632F026114A216D /* Pods-dorim2-tvOSTests.release.xcconfig */,
+				8BD60AADA89AEA37C96EDA96 /* Pods-dorim2Tests.debug.xcconfig */,
+				54399F75C9BA14E5C74A1C60 /* Pods-dorim2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dorim2Tests" */;
 			buildPhases = (
-				EFAF3B5AB9CCA3D17A0E9049 /* [CP] Check Pods Manifest.lock */,
+				8012A5F4BBBF9D16E2E13753 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,13 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dorim2" */;
 			buildPhases = (
-				85AF1D9B81FCE7A6CC2B6862 /* [CP] Check Pods Manifest.lock */,
+				12BE4BBCD94EDE134E0000EE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				744F3AC46198A3AB89E23C40 /* [CP] Copy Pods Resources */,
+				B599FA10A9E95A1204C63FB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dorim2-tvOS" */;
 			buildPhases = (
-				3EF9DA049EE4D2BD305F5F75 /* [CP] Check Pods Manifest.lock */,
+				C1DBE7603FF287878C588174 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dorim2-tvOSTests" */;
 			buildPhases = (
-				9D5CCDBA4D51AF4766C4BF94 /* [CP] Check Pods Manifest.lock */,
+				A75D2C143E1830A34C3A8DBF /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -286,7 +322,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -309,6 +345,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -330,15 +367,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +400,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		12BE4BBCD94EDE134E0000EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dorim2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -388,7 +438,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3EF9DA049EE4D2BD305F5F75 /* [CP] Check Pods Manifest.lock */ = {
+		8012A5F4BBBF9D16E2E13753 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,14 +453,36 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dorim2-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-dorim2Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		744F3AC46198A3AB89E23C40 /* [CP] Copy Pods Resources */ = {
+		A75D2C143E1830A34C3A8DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dorim2-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B599FA10A9E95A1204C63FB7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,7 +530,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dorim2/Pods-dorim2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85AF1D9B81FCE7A6CC2B6862 /* [CP] Check Pods Manifest.lock */ = {
+		C1DBE7603FF287878C588174 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,51 +545,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dorim2-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D5CCDBA4D51AF4766C4BF94 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dorim2-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EFAF3B5AB9CCA3D17A0E9049 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dorim2Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-dorim2-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -629,7 +657,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E8AB3B1DB23EFD65C427D1 /* Pods-dorim2Tests.debug.xcconfig */;
+			baseConfigurationReference = 8BD60AADA89AEA37C96EDA96 /* Pods-dorim2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -652,7 +680,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2E137AB7A26A0B9F207B73 /* Pods-dorim2Tests.release.xcconfig */;
+			baseConfigurationReference = 54399F75C9BA14E5C74A1C60 /* Pods-dorim2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -672,7 +700,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AA2FCBB8C226DBEBCAD7508 /* Pods-dorim2.debug.xcconfig */;
+			baseConfigurationReference = E16520DA63CFCFCDB139A591 /* Pods-dorim2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -692,7 +720,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE76F32C687C98F8F59C076 /* Pods-dorim2.release.xcconfig */;
+			baseConfigurationReference = F8A1FC721FEA99ADDF212140 /* Pods-dorim2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -711,7 +739,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B9ECF5947134275DE780667 /* Pods-dorim2-tvOS.debug.xcconfig */;
+			baseConfigurationReference = B8B62AA3C6FF3407CB713A34 /* Pods-dorim2-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -739,7 +767,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A4D3F9A42BD3E5A92F54FB2 /* Pods-dorim2-tvOS.release.xcconfig */;
+			baseConfigurationReference = 46FE349833AD3C848A55483A /* Pods-dorim2-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -767,7 +795,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD35585F7A0DFA8788495C6 /* Pods-dorim2-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EFE7B4D17A3FC780C214F817 /* Pods-dorim2-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -794,7 +822,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB497087F649C9A0AAC63652 /* Pods-dorim2-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8AAD9DD74632F026114A216D /* Pods-dorim2-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -903,6 +931,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
