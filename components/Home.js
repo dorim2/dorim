@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Text, View, Button } from 'react-native';
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+import { Button } from 'react-native-elements'
 
 export default class Home extends Component {
   render() {
@@ -8,11 +9,13 @@ export default class Home extends Component {
         <Text>Hello, welcome to home!</Text>
         <Button 
           title='signup'
+          type='clear'
           onPress = {() => this.props.navigation.navigate('Signup')}
         >
         </Button>
         <Button 
           title='login'
+          type='clear'
           onPress = {() => this.props.navigation.navigate('Login')}
           >
         </Button>

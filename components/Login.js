@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
-import { Input } from 'react-native-elements'
+import { View } from 'react-native'
+import { Input, Button } from 'react-native-elements'
 
 export default class Login extends Component {
   render() {
