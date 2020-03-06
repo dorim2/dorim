@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
+import { Input } from 'react-native-elements'
 
 export default class Login extends Component {
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Login component will go here</Text>
-      </View>
+        <View style={{display: 'flex', justifyContent: 'center'}}>
+            <Input label='email'/>
+            <Input label='password'/>
+            <Button type='clear' title='sign up'></Button>
+        </View>
     );
   }
 }
