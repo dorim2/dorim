@@ -24,9 +24,14 @@ export default class Login extends Component {
     // login user
     async handleSubmit() {
         try {
-            // sign in user, status will return an error or null if successful
+            // sign in user
             const status = await Fire.shared.login(this.state.email, this.state.password)
+
+            // status returns an error is sign up failed
             if (status) alert(status)
+
+            // if no status, sign up was successful --> proceed to main view
+            else this.props.navigation.navigate('ApartmentsList')
         } catch(error) {
             alert(error)
         }
