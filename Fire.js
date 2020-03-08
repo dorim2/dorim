@@ -31,12 +31,21 @@ class Fire {
     }
   }
 
+  createProfile = async (name, kosher, shabbat) => {
+    try {
+      const userId = this.uid()
+      const refToUser = firebase.database().ref('users').child(userId)
+      refToUser.set({ name, kosher, shabbat })
+    }
+    catch (error) {
+      return error
+    }
+  }
+
   // turn off firebase connection
   off() {
     this.ref.off();
   }
-
-
 }
 
 Fire.shared = new Fire()
