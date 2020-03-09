@@ -1,19 +1,21 @@
 import React, { Component } from 'react'
-import { View } from 'react-native'
-import { Input, Button, CheckBox, ButtonGroup } from 'react-native-elements'
+import { View, TextInput } from 'react-native'
+import { Button, ButtonGroup, Header } from 'react-native-elements'
 import Fire from '../Fire'
 
-export default class CreateProfile extends Component {
+export default class CreateListing extends Component {
     constructor() {
         super()
         this.state = {
-            name: '',
+            bio: '',
             kosherIndex: -1,
             shabbatIndex: -1,
             genderIndex: -1,
-            kosherOptions: ['fully', 'at home only', 'not into it'], 
-            shabbatOptions: ['fully', 'shabbat respectful', 'not into it'],
-            genderOptions: ['female', 'male', 'other']
+            roomTypeIndex: -1,
+            kosherOptions: ['glatt kosher', 'kosher style', 'vegan', 'other'], 
+            shabbatOptions: ['shomer shabbat', 'shabbat respectful', 'other'],
+            genderOptions: ['girls only', 'guys only', 'co-ed'],
+            roomTypeOptions: ['shared room', 'private room', 'entire apartment']
         }
         this.handleSubmit = this.handleSubmit.bind(this)
         this.handleChange = this.handleChange.bind(this)
@@ -29,11 +31,6 @@ export default class CreateProfile extends Component {
     // validate user input and send to database
     async handleSubmit() {
         try {
-            // validate choices have been made
-            if (!this.state.name.length) {
-                throw new Error('name can not be empty')
-            }
-
             if (this.state.kosherIndex < 0) {
                 throw new Error('please choose a kosher option')
             }
@@ -45,11 +42,18 @@ export default class CreateProfile extends Component {
             if (this.state.genderIndex < 0) {
                 throw new Error('please choose a gender option')
             }
+
+            if (this.state.roomTypeIndex < 0) {
+                throw new Error('please choose a room type option')
+            }
+
             // send info to backend
             const kosherStatus = this.state.kosherOptions[this.state.kosherIndex]
             const shabbatStatus = this.state.shabbatOptions[this.state.shabbatIndex]
             const genderStatus = this.state.genderOptions[this.state.genderIndex]
-            const status = await Fire.shared.createProfile(this.state.name, kosherStatus, shabbatStatus, genderStatus)
+            const roomType = this.state.roomTypeOptions[this.state.roomTypeIndex]
+            const bio = this.state.bio
+            const status = await Fire.shared.createListing(kosherStatus, shabbatStatus, genderStatus, roomType, bio)
 
             // status returns an error message if signup failed, null otherwise
             if (status) alert(status)
@@ -64,20 +68,38 @@ export default class CreateProfile extends Component {
   render() {
     return (
       <View style={{display: 'flex', justifyContent: 'center'}}>
-            <Input label='name' onChangeText={name => this.handleChange({name})}/>          
             <ButtonGroup
                 onPress={index => this.setState({kosherIndex: index})}
                 selectedIndex={this.state.kosherIndex}
                 buttons={this.state.kosherOptions}
-                containerStyle={{height: 100}}
+                containerStyle={{height: 50}}
             />
             <ButtonGroup
                 onPress={index => this.setState({shabbatIndex: index})}
                 selectedIndex={this.state.shabbatIndex}
                 buttons={this.state.shabbatOptions}
-                containerStyle={{height: 100}}
+                containerStyle={{height: 50}}
             />
-            <Button type='clear' title='sign up' onPress={this.handleSubmit}></Button>
+            <ButtonGroup
+                onPress={index => this.setState({genderIndex: index})}
+                selectedIndex={this.state.genderIndex}
+                buttons={this.state.genderOptions}
+                containerStyle={{height: 50}}
+            />
+            <ButtonGroup
+                onPress={index => this.setState({roomTypeIndex: index})}
+                selectedIndex={this.state.roomTypeIndex}
+                buttons={this.state.roomTypeOptions}
+                containerStyle={{height: 50}}
+            />
+            <TextInput
+                placeholder={'Tell us a bit more about the apartment...'}
+                multiline={true}
+                style={{backgroundColor: 'white', margin: '3%', height: '20%'}}
+                onChangeText={bio => this.handleChange({bio})}
+            >
+            </TextInput>
+            <Button type='clear' title='create listing' onPress={this.handleSubmit}></Button>
       </View>
     )
   }

@@ -31,13 +31,23 @@ class Fire {
     }
   }
 
-  createProfile = async (name, kosher, shabbat) => {
+  createProfile = async (name, kosher, shabbat, gender) => {
     try {
       const userId = this.uid()
       const refToUser = firebase.database().ref('users').child(userId)
-      refToUser.set({ name, kosher, shabbat })
+      refToUser.set({ name, kosher, shabbat, gender })
     }
     catch (error) {
+      return error
+    }
+  }
+
+  // create a new apartment / room listing
+  createListing = async (kosher, shabbat, gender, roomType, bio) => {
+    try {
+      const userId = this.uid()
+      firebase.database().ref('listings').push({kosher, shabbat, gender, roomType, bio, userId})
+    } catch (error) {
       return error
     }
   }

@@ -2,7 +2,13 @@ import 'react-native-gesture-handler'
 import * as React from 'react'
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
-import {Home, Signup, Login, CreateProfile, ApartmentsList} from './components'
+import {
+  Home, 
+  Signup, 
+  Login, CreateProfile, 
+  ApartmentsList, 
+  CreateListing
+  } from './components'
 
 const Stack = createStackNavigator()
 
@@ -32,6 +38,10 @@ export default function App() {
         <Stack.Screen
           name='ApartmentsList'
           component={ApartmentsList}
+        />
+        <Stack.Screen
+          name='CreateListing'
+          component={CreateListing}
         />
       </Stack.Navigator>
     </NavigationContainer>
