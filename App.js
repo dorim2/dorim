@@ -35,13 +35,14 @@ export default function App() {
           name='CreateProfile'
           component={CreateProfile}
         />
-        <Stack.Screen
-          name='ApartmentsList'
-          component={ApartmentsList}
-        />
+
         <Stack.Screen
           name='CreateListing'
           component={CreateListing}
+        />
+       <Stack.Screen
+          name='ApartmentsList'
+          component={ApartmentsList}
         />
       </Stack.Navigator>
     </NavigationContainer>

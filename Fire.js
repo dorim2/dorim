@@ -52,6 +52,19 @@ class Fire {
     }
   }
 
+  // get all available room listing from database
+  getRooms = async (callback) => {
+    try {
+      firebase.database().ref('listings').on('child_added', room => {
+        const roomInfo = Object.values(room.val())
+        roomInfo.id = Object.keys(room)[0]
+        callback(roomInfo)
+      })
+    } catch (error) {
+      return error
+    }
+  }
+
   // turn off firebase connection
   off() {
     this.ref.off();

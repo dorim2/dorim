@@ -77,6 +77,12 @@ export default class CreateProfile extends Component {
                 buttons={this.state.shabbatOptions}
                 containerStyle={{height: 100}}
             />
+            <ButtonGroup
+                onPress={index => this.setState({genderIndex: index})}
+                selectedIndex={this.state.genderIndex}
+                buttons={this.state.genderOptions}
+                containerStyle={{height: 100}}
+            />
             <Button type='clear' title='sign up' onPress={this.handleSubmit}></Button>
       </View>
     )
